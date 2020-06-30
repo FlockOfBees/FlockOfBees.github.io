@@ -1,0 +1,232 @@
+html {
+  !-font-family: 'Courier Prime', monospace;
+  font-family: 'Gentium Basic', serif;
+  !-font-family: 'News Cycle', sans-serif;
+  font-size: 16px;
+  background-color: rgb(158, 129, 161, 0.3);
+}
+
+/*Heading */
+
+header h1 {
+  text-align: center;
+  font-size: 100px;
+}
+
+h1 {
+  font-family: 'Courier Prime';
+}
+
+/*Navigation*/
+
+nav li {
+  display: inline;
+  text-align: center;
+  position: relative;
+  width: 180px;
+  margin: 0 auto;
+  padding-right: 320px;
+}
+
+/*Testimonial section */
+
+.main {
+background-image: url(forest2.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 30rem;
+padding-top: 1rem;
+border-radius: 1rem;
+position: static;
+}
+
+.container h1 {
+  color: white;
+  width: 50rem;
+  float: right;
+  padding-top: 10rem;
+}
+
+.container h3 {
+  color: white;
+  width: 50rem;
+  float: right;
+  font-family: "Courier Prime";
+}
+
+/*detectives section */
+
+.detectives {
+  position: relative;
+  display: block;
+}
+
+.detectives h1 {
+  color: red;
+}
+
+.detectives img {
+  box-sizing: border-box;
+  height: 30rem;
+  overflow: auto;
+  padding-top: 10px;
+  position: relative;
+  display: inline-block;
+  left: 30px;
+  right: 10px;
+  float: left;
+}
+
+.detectives p {
+  padding-left: 500px;
+  color: black;
+  font-size: 2rem;
+}
+
+
+/*
+.detectives li {
+  position: absolute;
+  display: block;
+  float: right;
+  bottom: 175px;
+  margin-right: 100px;
+  font-family: "Courier Prime";
+  font-size: 1.5rem;
+}
+
+.detectives ul {
+  position: relative;
+  bottom: 100px;
+  left: 400px;
+}
+*/
+
+/*footer*/
+
+footer h2 {
+  box-sizing: border-box;
+  font-size: 4rem;
+  text-align: center;
+  display: relative;
+  margin-top: 450px;
+  padding-bottom: 200px;
+  background-image: url(lovecraft.jpg);
+  background-size: cover;
+}
+
+
+
+/*alternate screen sizes*/
+
+/*medium screen */
+
+@media only screen and (max-width: 1000px) and (min-width: 601px) {
+  .container h1 {
+    font-size: 1.5rem;
+    width: 40rem;
+    float: none;
+    height: 400px;
+    line-height: 60px;
+    padding-left: 40px;
+    position: relative;
+  }
+
+  .container h3 {
+    font-size: 1rem;
+    display: inline;
+    width: 400px;
+    clear: both;
+    float: left;
+    padding-left: 100px;
+    position: absolute;
+    margin-bottom: 0px;
+    text-align: left;
+    bottom: -320px;
+
+  }
+
+  nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  }
+  nav li {
+    display: block;
+    margin-left:23rem;;
+    text-align: center;
+  }
+
+  .detectives p {
+    font-size: 1.5rem;
+    padding-left: 400px;
+  }
+
+
+}
+
+/*smallest screen*/
+
+@media only screen and (max-width: 600px) {
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+  }
+  nav li {
+    display: block;
+    margin-left:12rem;;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 4rem;
+  }
+
+  .detectives img {
+    display: block;
+    padding: 10px 10px 0px 0px;
+  }
+
+  .detectives p {
+    display: inline-block;
+    padding: 30px;
+    clear:right;
+    margin-top: 20px;
+  }
+
+  #discreet {
+    padding-top: 20px;
+    text-align:: right;
+    right: 50px;
+    width:200px;
+  }
+
+  .container h1 {
+    font-size: 1.25rem;
+    width: 400px;
+    float: none;
+    height: 400px;
+    line-height: 60px;
+    padding-left: 10px;
+    position: relative;
+  }
+
+  .container h3 {
+    font-size: 1rem;
+    display: inline;
+    width: 400px;
+    clear: both;
+    float: left;
+    padding-left: 70px;
+    position: absolute;
+    margin-bottom: 0px;
+    text-align: left;
+    bottom: -100px;
+
+  }
+}
+
+}
